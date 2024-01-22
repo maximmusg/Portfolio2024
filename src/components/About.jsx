@@ -12,14 +12,12 @@ const About = () => {
           programacion.
         </p>
         <div className="about__btn">
-          <button className="btn btn-primary btn__general">
-            Trabaja conmigo
-          </button>
-          <button className="btn btn-secondary btn__general ">
+          <button className="btn  btn__general ">Trabaja conmigo</button>
+          <button className="btn  btn__general ">
             Mira mis trabajos y proyectos
           </button>
-          <button className="btn btn-danger btn__general">
-            Descarga aqui mi Curriculum!
+          <button className="btn  btn-cv ">
+            Ver o descarga aqui mi Curriculum!
           </button>
         </div>
       </div>

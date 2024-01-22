@@ -1,5 +1,5 @@
 /* 
-Colores
+Pallete colors
 
 Black : 000000
 blue1 : 0B60B0
@@ -19,6 +19,8 @@ body {
   margin: 0 auto;
   background-color: #232d3f;
 }
+
+/* ----------------HEADER STYLES---------------- */
 
 .navbar {
   width: 100%;
@@ -42,6 +44,8 @@ body {
   color: white;
 }
 
+/* ----------------ABOUT STYLES---------------- */
+
 .About__container {
   width: 80%;
   margin: 5rem auto;
@@ -52,7 +56,7 @@ body {
 
 .about__info {
   width: 70%;
-  color: white;
+  color: #f0edcf;
   font-size: 1.2rem;
   padding: 3rem;
 }
@@ -69,12 +73,104 @@ body {
   width: 30%;
 }
 
+/* ----------------BTN STYLES---------------- */
+
 .btn {
-  color: white;
+  color: #f0edcf;
 }
 
 .btn__general {
   margin-top: 2rem;
   margin-right: 1.5rem;
   padding: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 2px solid black;
+  background-color: #0b60b0;
+}
+
+.btn__general:hover {
+  background-color: #063764;
+}
+
+.btn-cv {
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  padding: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  font-weight: bolder;
+  background-color: #f0edcf;
+  border: 3px solid #0b60b0;
+}
+
+.btn-cv:hover {
+  background-color: #f0edcf;
+  color: black;
+  border: 3px solid #40a2d8;
+}
+
+/* ----------------PROYECTS STYLES---------------- */
+
+.projects__container {
+  color: #f0edcf;
+  padding-bottom: 2rem;
+}
+
+.projects__info {
+  margin: 0 auto;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.projects__info h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 2rem;
+}
+
+.projects__info p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.projects__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  height: 20rem;
+}
+
+.card__links {
+  text-decoration: none;
+}
+
+.card {
+  grid-area: 1 / 1 / 6 / 3;
+  height: 27rem;
+  margin: auto auto;
+  /* text-align: center; */
+}
+
+.card img {
+  object-fit: cover;
+  height: 15rem;
+}
+
+.card-body {
+  color: #f0edcf;
+}
+
+.card-body h6 {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #0b60b0;
 }
