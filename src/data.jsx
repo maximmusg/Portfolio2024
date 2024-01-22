@@ -1,34 +1,34 @@
 export const projects = [
   {
-    title: "Covid Patients",
+    title: "Tic Tac Toe / Ta Te Ti",
     subtitle: "React",
     description:
-      "Aplicacion de formulario para gestion de pacientes covid positivo, con funcionalidades para agregar/editar/eliminar los mismos, guardandose todo en Local Storage.",
-    image: "./covidPatient.png",
+      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+    image: "./Tic Tac Toe .png",
     link: "http://covidpatient.netlify.app/",
   },
   {
-    title: "Covid Patients",
+    title: "Tienda de Saphirus 2",
     subtitle: "React",
     description:
-      "Aplicacion de formulario para gestion de pacientes covid positivo, con funcionalidades para agregar/editar/eliminar los mismos, guardandose todo en Local Storage.",
-    image: "./covidPatient.png",
+      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+    image: "./Tienda de saphirus2.png",
     link: "http://covidpatient.netlify.app/",
   },
   {
-    title: "Covid Patients",
-    subtitle: "React",
+    title: "Tienda de Perfumes importados",
+    subtitle: "React - Html - Css",
     description:
-      "Aplicacion de formulario para gestion de pacientes covid positivo, con funcionalidades para agregar/editar/eliminar los mismos, guardandose todo en Local Storage.",
-    image: "./covidPatient.png",
+      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+    image: "./Perfumeria .png",
     link: "http://covidpatient.netlify.app/",
   },
   {
-    title: "Covid Patients",
-    subtitle: "React",
+    title: "Tienda de Saphirus",
+    subtitle: "HTML - CSS - JAVASCRIPT",
     description:
-      "Aplicacion de formulario para gestion de pacientes covid positivo, con funcionalidades para agregar/editar/eliminar los mismos, guardandose todo en Local Storage.",
-    image: "./covidPatient.png",
+      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+    image: "./Tienda de Saphirus.png",
     link: "http://covidpatient.netlify.app/",
   },
   {
