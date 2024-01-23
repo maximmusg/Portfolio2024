@@ -6,7 +6,7 @@ const Projects = () => {
     <>
       <section id="projects" className="container projects__container">
         <div className="projects__info">
-          <h1>Proyectos que desarrollado:</h1>
+          <h2>Proyectos que desarrollado:</h2>
           <p>
             Arranque mis estudios relacionados a la tecnología en la Facultad de
             matemática, astronomía y física ( FaMAF ) de la Universidad nacional

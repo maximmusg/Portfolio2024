@@ -125,7 +125,7 @@ body {
   text-align: center;
 }
 
-.projects__info h1 {
+.projects__info h2 {
   text-transform: uppercase;
   font-weight: bolder;
   padding: 2rem;
@@ -173,4 +173,76 @@ body {
   text-align: center;
   padding-bottom: 1rem;
   color: #0b60b0;
+}
+
+/* ----------------SKILLS STYLES---------------- */
+
+.skills__container {
+  color: #f0edcf;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.skills__info {
+  margin: 2rem auto;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.skills__info h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 2rem;
+}
+
+.skills__info p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.skills__positions {
+  margin: 0 auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 1rem;
+}
+
+.div__skills {
+  border: 0.1px dashed #40a2d8;
+  text-align: center;
+  padding: auto;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  height: 100%;
+  background-color: #1f2937;
+}
+
+/* ----------------CONTACT STYLES---------------- */
+
+.contact__container {
+  color: #f0edcf;
+  padding: 2rem;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid red;
+  display: flex;
+}
+
+.contact__info--container {
+  width: 50%;
+  border: 1px solid blue;
+}
+
+.contact__form--container {
+  width: 50%;
+  border: 1px solid blue;
 }
