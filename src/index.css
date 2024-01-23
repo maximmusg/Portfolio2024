@@ -230,19 +230,32 @@ body {
 
 .contact__container {
   color: #f0edcf;
-  padding: 2rem;
-  margin: 0 auto;
+  padding: 0 5rem;
+  margin: 2rem auto;
   width: 80%;
   border: 1px solid red;
   display: flex;
 }
 
+.contact__title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 3rem auto;
+}
+
 .contact__info--container {
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+
+.contact__info--container p {
+  /* color: #0b60b0; */
+  color: #40a2d8;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .contact__form--container {
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
