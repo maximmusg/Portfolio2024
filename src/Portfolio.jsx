@@ -1,8 +1,8 @@
 // import Navbar from "./components/Navbar";
-// import About from "./components/About";
+import About from "./components/About";
 // import Projects from "./components/Projects";
 // import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
 
 const Portfolio = () => {
@@ -10,10 +10,10 @@ const Portfolio = () => {
     <>
       {/* <Navbar /> */}
       {/* <h1>Gomez maximiliano </h1> */}
-      {/* <About /> */}
+      <About />
       {/* <Projects /> */}
       {/* <Skills /> */}
-      <Contact />
+      {/* <Contact /> */}
       {/* <Footer /> */}
     </>
   );
