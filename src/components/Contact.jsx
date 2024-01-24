@@ -24,52 +24,64 @@ const Contact = () => {
           Si deseas comunicarte conmigo, completa el siguiente formulario y
           responderé a la brevedad.
         </p>
-        <form>
+        <form
+          action="https://formsubmit.co/82b604f54414bf24e14e4da919601f62 "
+          method="POST"
+        >
           <div className="mb-3">
-            <label htmlFor="exampleInputEmail1" className="form-label">
+            <label htmlFor="nombre" className="form-label">
               Nombre y apellido:
             </label>
             <input
               type="text"
               className="form-control"
-              id="exampleInputEmail1"
+              id="nombre"
               aria-describedby="emailHelp"
+              name="name"
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">
+            <label htmlFor="correo" className="form-label">
               Correo electrónico
             </label>
             <input
               type="email"
               className="form-control"
-              id="exampleInputPassword1"
+              id="correo"
+              name="email"
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleInputEmail2" className="form-label">
+            <label htmlFor="motivo" className="form-label">
               Motivo:
             </label>
             <input
               type="text"
               className="form-control"
-              id="exampleInputEmail2"
+              id="motivo"
               aria-describedby="emailHelp"
+              name="motivo"
             />
           </div>
 
           <div className="mb-3">
-            <label htmlFor="exampleFormControlTextarea1">Mensaje:</label>
+            <label htmlFor="contenidoDelMensaje">Mensaje:</label>
             <textarea
               className="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
+              name="contenido"
             ></textarea>
           </div>
 
           <button type="submit" className="btn btn-primary">
-            Submit
+            Enviar
           </button>
+
+          <input type="hidden" name="_next" value="http://localhost:5173" />
+          {/* <input type="hidden" name="_captcha" value="false" /> */}
+          {/* <input type="hidden" name="_next" value="web" /> */}
+          {/* <input type="hidden" name="_captcha" value="web" /> */}
         </form>
       </div>
     </div>
