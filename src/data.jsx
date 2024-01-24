@@ -3,33 +3,33 @@ export const projects = [
     title: "Tic Tac Toe / Ta Te Ti",
     subtitle: "React",
     description:
-      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+      "Si no saben que bebida tomar, vino o cerveza? no lo piensen mas y que el Ganador dictamine el futuro de esa fiesta! / Juego creado a modo de practica , TicTacToe solo que en lugar de (x e o) hay alcohol!",
     image: "./Tic Tac Toe .png",
-    link: "http://covidpatient.netlify.app/",
+    link: "https://tic-tac-toe-seven-tan.vercel.app/",
   },
   {
-    title: "Tienda de Saphirus 2",
+    title: "Tienda de Saphirus 2 (SaphiruStore)",
     subtitle: "React",
     description:
-      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+      "Curso de React, dictado por CoderHouse / Amplia gama de fragancias en diferentes formatos. En MMSG vas a encontrar aromatizadores para tela y ambientes, spray para el hogar, aerosoles, varillas difusoras, aceites esenciales, sahumerios, jabones de manos, body splash, perfumes, cremas y mucho más!",
     image: "./Tienda de saphirus2.png",
-    link: "http://covidpatient.netlify.app/",
+    link: "https://proyecto-final-gomez.vercel.app/",
   },
   {
     title: "Tienda de Perfumes importados",
     subtitle: "React - Html - Css",
     description:
-      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+      "Este proyecto consta de una tienda de perfumes tanto importados como nacionales , se puede filtrar por genero y al momento de finalizar la compra se obtiene un mensaje con el numero de orden de compra. ",
     image: "./Perfumeria .png",
-    link: "http://covidpatient.netlify.app/",
+    link: "https://maximmusg.github.io/TiendaDePerfumes/",
   },
   {
     title: "Tienda de Saphirus",
     subtitle: "HTML - CSS - JAVASCRIPT",
     description:
-      "dadawdawd awdawd awdawd awd awd awdawdawd awdawd awd awd awd awd awd awd awd awd awd awd awd awd awdawdawd awd awd awd awd awd awd aw dawd awd awd ",
+      "Sitio web creado para curso de Html y css en CoderHouse / MMSG aromas,desarrolla y fabrica una amplia gama de aromatizadores ambientales en diferentes presentaciones y ofrece una gran variedad de fragancias. ",
     image: "./Tienda de Saphirus.png",
-    link: "http://covidpatient.netlify.app/",
+    link: "https://maximmusg.github.io/MmsgAromas/",
   },
   {
     title: "Covid Patients",
@@ -107,7 +107,7 @@ export const projects = [
     title: "Platzi conf",
     subtitle: "Html, Bootstrap, JavaScript",
     description:
-      'Proyecto pagina web sobre informacion para conferencia "PlatziConf", hecha en curso de plataforma Platzi para aprender el manejo de Bootstrap.',
+      'Proyecto página web sobre información para conferencia "PlatziConf", hecha en curso de plataforma Platzi para aprender el manejo de Bootstrap. pagina web sobre informacion para conferencia "PlatziConf", hecha en curso de plataforma Platzi para aprender el manejo de Bootstrap.',
     image: "./platziconf.png",
     link: "https://resplendent-flan-eabb50.netlify.app/",
   },
