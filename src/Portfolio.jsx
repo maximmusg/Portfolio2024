@@ -2,7 +2,8 @@
 // import About from "./components/About";
 // import Projects from "./components/Projects";
 // import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const Portfolio = () => {
   return (
@@ -12,7 +13,8 @@ const Portfolio = () => {
       {/* <About /> */}
       {/* <Projects /> */}
       {/* <Skills /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <Footer />
     </>
   );
 };
