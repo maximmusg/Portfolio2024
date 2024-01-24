@@ -36,6 +36,7 @@ const About = () => {
             <a href="https://www.instagram.com/maximmusg/">
               <img src="./images/iglogo.png" alt="instagram" />
             </a>
+
             {/* <a aria-label="Chat on WhatsApp" href="https://wa.me/3513740384">
               <img alt="Chat on WhatsApp" src="./images/wpp.png" />
             </a> */}
