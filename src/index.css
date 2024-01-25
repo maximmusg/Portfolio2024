@@ -25,9 +25,11 @@ body {
 .navbar {
   /* width: 100%; */
   background-color: #0b60b0;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
+  margin: 1rem 0 4rem 0;
+  position: sticky;
 }
 
 .container-nav {
@@ -84,7 +86,7 @@ body {
 
 .About__container {
   width: 80%;
-  margin: 5rem auto;
+  margin: 3rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,6 +164,7 @@ body {
 /* ----------------PROYECTS STYLES---------------- */
 
 .projects__container {
+  margin: 4rem auto;
   color: #f0edcf;
   padding-bottom: 2rem;
 }
@@ -275,9 +278,8 @@ body {
 .contact__container {
   color: #f0edcf;
   padding: 0 5rem;
-  margin: 2rem auto;
+  margin: 4rem auto;
   width: 80%;
-  border: 1px solid red;
   display: flex;
 }
 
