@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="About__container">
+    <div id="about" className="About__container">
       <div className="about__info">
         <h2 className="title__About">
           Hola, Soy Maxi !
@@ -12,10 +12,12 @@ const About = () => {
           programacion.
         </p>
         <div className="about__btn">
-          <button className="btn  btn__general ">Trabaja conmigo</button>
-          <button className="btn  btn__general ">
+          <a href="#contact" className="btn  btn__general ">
+            Trabaja conmigo
+          </a>
+          <a href="#projects" className="btn  btn__general ">
             Mira mis trabajos y proyectos
-          </button>
+          </a>
           <a
             href="https://drive.google.com/file/d/1ZdIbHCnTxOWRo23VZPWxhuVg0Qn76cYF/view?usp=drive_link"
             className="btn  btn-cv "
