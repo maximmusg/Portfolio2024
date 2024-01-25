@@ -3,13 +3,13 @@ const About = () => {
     <div id="about" className="About__container">
       <div className="about__info">
         <h2 className="title__About">
-          Hola, Soy Maxi !
-          <br /> Soy de la provincia de Cordoba, Argentina.
+          ¡Hola, Soy Maxi!
+          <br /> Soy de la provincia de Córdoba, Argentina.
         </h2>
         <p className="text__About">
-          Actualmente me encuentro trabajando en un comercio del rubro quimico,
+          Actualmente me encuentro trabajando en un comercio del rubro químico,
           y estoy buscando mi primera experiencia profesional en el mundo de la
-          programacion.
+          programación.
         </p>
         <div className="about__btn">
           <a href="#contact" className="btn  btn__general ">
@@ -22,7 +22,7 @@ const About = () => {
             href="https://drive.google.com/file/d/1ZdIbHCnTxOWRo23VZPWxhuVg0Qn76cYF/view?usp=drive_link"
             className="btn  btn-cv "
           >
-            Ver o descarga aqui mi Curriculum!
+            ¡Ver o descarga aquí mi Curriculum!
           </a>
         </div>
         <div className="about__social">

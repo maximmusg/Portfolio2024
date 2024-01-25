@@ -11,9 +11,9 @@ const Contact = () => {
         <p>Córdoba, Argentina - 25 de Octubre de 1994</p>
         <h4>CORREO ELECTRÓNICO:</h4>
         <p>mmsg.2594@gmail.com</p>
-        <h4>NUMERO DE TELÉFONO:</h4>
+        <h4>NÚMERO DE TELÉFONO:</h4>
         <p>351-3740384</p>
-        <h4>DIRECCION:</h4>
+        <h4>DIRECCIÓN:</h4>
         <p>Barrio Colinas del Cerro, Córdoba </p>
         <h4>ESTADO CIVIL:</h4>
         <p>Soltero</p>

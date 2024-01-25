@@ -25,7 +25,7 @@ const Navbar = () => {
             <ul className="navbar-nav ">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#about">
-                  Sobre Mi!
+                  Sobre Mí!
                 </a>
               </li>
               <li className="nav-item">
@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
-                  Contratame!
+                  ¡Contratame!
                 </a>
               </li>
             </ul>

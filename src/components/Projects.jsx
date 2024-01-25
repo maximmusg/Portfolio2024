@@ -6,7 +6,7 @@ const Projects = () => {
     <>
       <section id="projects" className="container projects__container">
         <div className="projects__info">
-          <h2>Proyectos que desarrollado:</h2>
+          <h2>Proyectos que he desarrollado:</h2>
           <p>
             Arranque mis estudios relacionados a la tecnología en la Facultad de
             matemática, astronomía y física ( FaMAF ) de la Universidad nacional
@@ -14,7 +14,7 @@ const Projects = () => {
           </p>
           <p>
             Pero fue mediante distintas plataformas online (Por ejemplo
-            CoderHouse, Youtube, Platzi, FreeCodeCamp, Udemy), que adquiri los
+            CoderHouse, Youtube, Platzi, FreeCodeCamp, Udemy), que adquirí los
             conocimientos para realizar los siguientes proyectos:
           </p>
         </div>
