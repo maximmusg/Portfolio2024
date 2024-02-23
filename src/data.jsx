@@ -128,7 +128,9 @@ export const skills = [
   // "Node",
   "Git",
   "GitHub",
-  "Ingles Basico",
-  "Fundamentos de Bases de datos",
   "Tecnicas de SEO",
+  "Fundamentos de Bases de datos",
+  "SQL",
+  "Mantenimiento de Software/Hardware",
+  "Ingles Basico",
 ];
