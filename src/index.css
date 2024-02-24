@@ -22,39 +22,61 @@ body {
 
 /* ----------------HEADER STYLES---------------- */
 
-.navbar-container {
+.logo-container {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  background-color: #0b60b0;
+  padding-top: 1rem;
+  margin-top: 0.4rem;
 }
 
-.navbar-title {
+.logo__img {
+  max-width: 3rem;
+  height: auto;
+}
+
+.navbar {
+  background-color: #0b60b0;
+}
+
+.container-nav {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
+}
+
+.navbar-toggler {
+  font-size: 1rem;
 }
 
 .navbar-nav {
   text-align: center;
+  justify-content: center;
 }
 
-.nav-link {
+.navbar-nav .nav-link {
   padding: 1rem;
   color: white;
   text-decoration: none;
-  font-weight: bolder;
-  font-size: 1.1rem;
 }
 
-.nav-link:hover {
+.navbar-nav .nav-link:hover {
   text-decoration: underline;
-  color: #40a2d8;
 }
 
-.logo__img {
-  width: 3rem;
-  margin: 0 2rem;
+@media screen and (max-width: 992px) {
+  .container-nav {
+    display: block;
+    padding: 1rem 2rem;
+  }
 }
 
 /* ----------------ABOUT STYLES---------------- */

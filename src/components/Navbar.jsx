@@ -1,14 +1,21 @@
 const Navbar = () => {
   return (
-    <div className="navbar-container" style={{ backgroundColor: "#0b60b0" }}>
-      <nav className="navbar navbar-expand-lg navbar-dark">
-        <div className="container">
+    <div>
+      <div
+        className="logo-container"
+        style={{ backgroundColor: "#0B60B0", textAlign: "center" }}
+      >
+        <a href="#">
           <img
             className="logo__img"
             src="./images/logo2.png"
             alt="logoNombre"
           />
-          <a className="navbar-brand navbar-title" href="#">
+        </a>
+      </div>
+      <nav className="navbar navbar-expand-lg navbar-dark">
+        <div className="container-nav">
+          <a className="navbar-brand" href="#">
             Gómez Maximiliano Ezequiel
           </a>
           <button
