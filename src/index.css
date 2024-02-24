@@ -112,15 +112,49 @@ body {
 }
 
 .about__social {
-  margin: 3rem auto;
   display: flex;
   justify-content: space-around;
 }
 
 .about__social-icons a img {
   width: 2.5rem;
-  margin: 0 3rem;
+  margin: 1rem 2rem;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .About__container {
+    width: 90%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .about__img {
+    width: 40%;
+  }
+
+  .about__social {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .about__btn a {
+    margin: 0.5rem auto;
+    text-align: center;
+    width: 80%;
+    font-size: 1.2rem;
+  }
 }
 
 /* ----------------BTN STYLES---------------- */
@@ -226,7 +260,7 @@ body {
   color: #0b60b0;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 1024px) {
   .projects__cards {
     display: flex;
     flex-direction: column;
@@ -235,15 +269,9 @@ body {
     margin: o auto;
     padding: 0;
   }
-}
-
-@media screen and (max-width: 1024px) {
-  .projects__cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* padding: 3rem; */
+  .projects__info {
+    margin: 0 auto;
+    padding-bottom: 1rem;
   }
 }
 
@@ -289,13 +317,19 @@ body {
 .div__skills {
   border: 0.1px dashed #40a2d8;
   text-align: center;
-  padding: auto;
   display: flex;
   padding: 1rem;
   align-items: center;
   border-radius: 0.25rem;
   height: 100%;
   background-color: #1f2937;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .skills__positions {
+    width: 90%;
+  }
 }
 
 /* ----------------CONTACT STYLES---------------- */
@@ -328,7 +362,29 @@ body {
 
 .contact__form--container {
   width: 50%;
-  /* border: 1px solid blue; */
+}
+
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+
+  .contact__info--container,
+  .contact__form--container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 /* ----------------FOOTER STYLES---------------- */
