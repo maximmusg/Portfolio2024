@@ -22,64 +22,39 @@ body {
 
 /* ----------------HEADER STYLES---------------- */
 
-.navbar {
-  /* width: 100%; */
-  background-color: #0b60b0;
-  padding: 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  margin: 1rem 0 4rem 0;
-  position: sticky;
-}
-
-.container-nav {
+.navbar-container {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #40a2d8;
 }
 
 .logo__img {
-  margin: 0 auto;
-  width: 3%;
-}
-.navbar-title {
-  font-weight: bold;
-  text-align: center;
-}
-
-.navbar-title:hover {
-  color: #40a2d8;
-  cursor: pointer;
-}
-
-.navbar-line {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #232d3f;
-  text-align: center;
-}
-
-.navbar-brand {
-  color: white;
-  /* margin: 0 auto; */
-}
-
-.nav-item {
-  text-align: center;
-}
-
-.nav-item a {
-  color: #f0edcf;
-  font-size: 1.25rem;
-  margin-right: 1.5rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-.nav-item a:hover {
-  font-weight: bold;
-  color: #232d3f;
-  font-size: 1.3rem;
+  width: 3rem;
+  margin: 0 2rem;
 }
 
 /* ----------------ABOUT STYLES---------------- */
@@ -113,6 +88,7 @@ body {
 
 .about__social {
   display: flex;
+  align-items: flex-end;
   justify-content: space-around;
 }
 

@@ -1,14 +1,16 @@
 const Navbar = () => {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg navbar__flex">
-        <img className="logo__img" src="./images/logo2.png" alt="logoNombre" />
-
-        <div className="container-nav  ">
-          <a className="navbar-brand navbar-title " to="#">
+    <div className="navbar-container" style={{ backgroundColor: "#0b60b0" }}>
+      <nav className="navbar navbar-expand-lg navbar-dark">
+        <div className="container">
+          <img
+            className="logo__img"
+            src="./images/logo2.png"
+            alt="logoNombre"
+          />
+          <a className="navbar-brand navbar-title" href="#">
             Gómez Maximiliano Ezequiel
           </a>
-          <span className="navbar-line"> | </span>
           <button
             className="navbar-toggler"
             type="button"
@@ -21,8 +23,8 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse " id="navbarNav">
-            <ul className="navbar-nav ">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <a className="nav-link" href="#about">
                   Sobre Mí!
@@ -47,7 +49,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
